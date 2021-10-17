@@ -10,7 +10,7 @@
 10. The console will log 3 on line 12 becasue length is a `const` variable that is in a valid scope to be called.
 11. This function will return a the list of discounted prices which are 50, 100, and 150. Ever thought this array has a `const` type, this only means that you cannot resign the referene to the array. You however **CAN** assign new values to indices inside the array.
 12. A. student.name
-12. B. student['Grad Year']
-12. C. student.greeting()
-12. D. student['Favorite Teacher'].name
-12. E. student.courseLoad[0]
+    B. student['Grad Year']
+    C. student.greeting()
+    D. student['Favorite Teacher'].name
+    E. student.courseLoad[0]
