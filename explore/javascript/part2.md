@@ -30,8 +30,8 @@
     The string 3 is concatenated with undefined which is typecasted to get '3undefined'.
     H. '3' - undefined = NaN
     undefined, which is type casted to a numeric value of NaN, is subtracted from the string 3 to get NaN.
-15. A. '2' > 1 = true
-    The string '2' is type casted to an int. Then 2 is compared to 1 to get true.
+15. A. '2' > 1 = true <br/>
+    The string '2' is type casted to an int. Then 2 is compared to 1 to get true. <br/>
     B. '2' < '12' = false
     The string '2' and '12' are compared in order. So the '2' is compared to the '1' in '12'. Since '2' is bigger than '1' in lexigraphic order, then false is returned.
     C. 2 == '2' = true
