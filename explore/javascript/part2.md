@@ -6,4 +6,11 @@
 6. Line 13 will log an error because discountedPrice is not defined in this scope. `let` variables are only present in the block scope they are defined in.
 7. Line 14 will log 150 which is the final price that was being calculated. Since it is defined in the same scope that the console.log call is in, it is able to be used here.
 8. This function will return a discounted array of 50, 100, and 150. These are all the discounted prices of the items. The discounted array is present in this scope because it has the `let` variable type and the return function is in the same block as it.
-9. 
+9. There will be a reference error on line 11. This is because i is a `let` variable and not defined in this scope.
+10. The console will log 3 on line 12 becasue length is a `const` variable that is in a valid scope to be called.
+11. This function will return a the list of discounted prices which are 50, 100, and 150. Ever thought this array has a `const` type, this only means that you cannot resign the referene to the array. You however **CAN** assign new values to indices inside the array.
+12. A. student.name
+    B. student['Grad Year']
+    C. student.greeting()
+    D. student['Favorite Teacher'].name
+    E. student.courseLoad[0]
