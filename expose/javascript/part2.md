@@ -7,8 +7,8 @@
 7. Line 14 will log 150 which is the final price that was being calculated. Since it is defined in the same scope that the console.log call is in, it is able to be used here.
 8. This function will return a discounted array of 50, 100, and 150. These are all the discounted prices of the items. The discounted array is present in this scope because it has the `let` variable type and the return function is in the same block as it.
 9. There will be a reference error on line 11. This is because i is a `let` variable and not defined in this scope.
-10. The console will log 3 on line 12 becasue length is a `const` variable that is in a valid scope to be called.
-11. This function will return a the list of discounted prices which are 50, 100, and 150. Ever thought this array has a `const` type, this only means that you cannot resign the referene to the array. You however **CAN** assign new values to indices inside the array.
+10. The console will log 3 on line 12 because length is a `const` variable that is in a valid scope to be called.
+11. This function will return a the list of discounted prices which are 50, 100, and 150. Ever thought this array has a `const` type, this only means that you cannot resign the reference to the array. You however **CAN** assign new values to indices inside the array.
 12. A. student.name <br/>
     B. student['Grad Year'] <br/>
     C. student.greeting() <br/>
@@ -27,7 +27,7 @@
     F. false + null = 0 <br/>
     false has a numeric value of 0 and null has a numeric value of 0, so when they are added it's just 0. <br/>
     G. '3' + undefined = '3undefined' <br/>
-    The string 3 is concatenated with undefined which is typecasted to get '3undefined'. <br/>
+    The string 3 is concatenated with undefined which is type-casted to get '3undefined'. <br/>
     H. '3' - undefined = NaN <br/>
     undefined, which is type casted to a numeric value of NaN, is subtracted from the string 3 to get NaN. <br/>
 14. A. '2' > 1 = true <br/>
@@ -42,6 +42,6 @@
     true is type casted to the int 1 which is not equal to 2. <br/>
     F. true === Boolean(2) = true <br/>
     Boolean of any number besides 0 returns true which is equal to true. <br/>
-15. The == operator check equality and type casts for varaibles that aren't the same type. The === operator will only work for values that are type equivalent.
+15. The == operator check equality and type casts for variables that aren't the same type. The === operator will only work for values that are type equivalent.
 17. First we call the `modifyArray` function with the parameters. This creates a `newArr` to store values in. We then use the `callback` function, which is really just the passed in `doSomething` function. `doSomething` multiples every element by 2, so each element is multiplied by 2 in the passed in array and then pushed to the back of `newArr`.
-19. This code outputs:</br> 1 </br> 4 </br> 3 </br> 2 </br> This is becasue the setTimeout function always occurs after those console calls with no delays. Also there is some delay in the printing of 2, so it prints last.
+19. This code outputs:</br> 1 </br> 4 </br> 3 </br> 2 </br> This is because the setTimeout function always occurs after those console calls with no delays. Also there is some delay in the printing of 2, so it prints last.
