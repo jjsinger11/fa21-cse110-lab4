@@ -44,4 +44,4 @@
     Boolean of any number besides 0 returns true which is equal to true. <br/>
 15. The == operator check equality and type casts for varaibles that aren't the same type. The === operator will only work for values that are type equivalent.
 17. First we call the `modifyArray` function with the parameters. This creates a `newArr` to store values in. We then use the `callback` function, which is really just the passed in `doSomething` function. `doSomething` multiples every element by 2, so each element is multiplied by 2 in the passed in array and then pushed to the back of `newArr`.
-19. This code outputs: 1 </br> 4 </br> 3 </br> 2 </br>. This is becasue the setTimeout function always occurs after those console calls with no delays. Also there is some delay in the printing of 2, so it prints last.
+19. This code outputs:</br> 1 </br> 4 </br> 3 </br> 2 </br> This is becasue the setTimeout function always occurs after those console calls with no delays. Also there is some delay in the printing of 2, so it prints last.
