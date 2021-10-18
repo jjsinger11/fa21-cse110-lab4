@@ -30,7 +30,7 @@
     The string 3 is concatenated with undefined which is typecasted to get '3undefined'. <br/>
     H. '3' - undefined = NaN <br/>
     undefined, which is type casted to a numeric value of NaN, is subtracted from the string 3 to get NaN. <br/>
-15. A. '2' > 1 = true <br/>
+14. A. '2' > 1 = true <br/>
     The string '2' is type casted to an int. Then 2 is compared to 1 to get true. <br/>
     B. '2' < '12' = false <br/>
     The string '2' and '12' are compared in order. So the '2' is compared to the '1' in '12'. Since '2' is bigger than '1' in lexigraphic order, then false is returned. <br/>
@@ -42,5 +42,6 @@
     true is type casted to the int 1 which is not equal to 2. <br/>
     F. true === Boolean(2) = true <br/>
     Boolean of any number besides 0 returns true which is equal to true. <br/>
-
 15. The == operator check equality and type casts for varaibles that aren't the same type. The === operator will only work for values that are type equivalent.
+17. First we call the `modifyArray` function with the parameters. This creates a `newArr` to store values in. We then use the `callback` function, which is really just the passed in `doSomething` function. `doSomething` multiples every element by 2, so each element is multiplied by 2 in the passed in array and then pushed to the back of `newArr`.
+19. This code outputs: 1 </br> 4 </br> 3 </br> 2 </br>. This is becasue the setTimeout function always occurs after those console calls with no delays. Also there is some delay in the printing of 2, so it prints last.
